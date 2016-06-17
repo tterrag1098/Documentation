@@ -39,7 +39,7 @@ div.admonition {
 }
 
 div.admonition > p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 /* Give code tags in admonitions a little more space and make them more readable */
