@@ -64,14 +64,14 @@ Another common use for activation is, well, activation. This can be something li
 
 Player Break/Destroy
 --------------------
-
+*Coming Soon*
 
 Player Highlighting
 -------------------
-
+*Coming Soon*
 
 Entity Collision
 ----------------
-
+*Coming Soon*
 
 [sidedness]: ../concepts/sides.md
