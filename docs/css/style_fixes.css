@@ -38,6 +38,10 @@ div.admonition {
     margin-bottom: 10px !important;
 }
 
+div.admonition > p:last-child {
+    margin-bottom: 0;
+}
+
 /* Give code tags in admonitions a little more space and make them more readable */
 div.admonition code {
     display: inline-block;
