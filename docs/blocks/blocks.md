@@ -12,7 +12,7 @@ For simple blocks, which need no special functionality (think cobblestone, wood 
 
 - `setHardness` - Controls the time it takes to break the block. It is an arbitrary value. For reference, stone has a hardness of 1.5, and dirt 0.5. If the block should be unbreakable, a convenience method `setBlockUnbreakable` is provided.
 - `setResistance` - Controls the explosion resistance of the block. This is separate from hardness, but `setHardness` will also set the resistance to 5 times the hardness value, if the resistance is any lower than this value.
-- `setSoundType` - Controls the sound the block makes when it is punched, broken, or placed. Requires a `SoundType` argument, see the [sounds](sounds) page for more details.
+- `setSoundType` - Controls the sound the block makes when it is punched, broken, or placed. Requires a `SoundType` argument, see the [sounds] page for more details.
 - `setLightLevel` - Controls the light emission of the block. **Note:** This method takes a value from zero to one, not zero to fifteen. To calculate this value, take the light level you wish your block to emit and divide by 16. For instance a block which emits level 5 light should pass `5 * 16f` to this method.
 - `setLightOpacity` - Controls the amount light passing through this block will be dimmed. Unlike `setLightLevel` this value is on a scale from zero to 15. For example, setting this to `3` will lower light by 3 levels every time it passes through this type of block.
 - `setUnlocalizedName` - Mostly self explanatory, sets the unlocalized name of the block. This name will be prepended with "tile." and appended with ".name" for localization purposes. For instance `setUnlocalizedName("foo")` will cause the block's actual localization key to be "tile.foo.name". For more advanced localization control, a custom Item will be needed. We'll get into this more later.
@@ -39,7 +39,7 @@ It is also possible to pass a `ResourceLocation` directly into `register`, but t
 Further Reading
 ---------------
 
-For information about block properties, such as those used for vanilla blocks like wood types, fences, walls, and many more, see the section on [blockstates](blockstates).
+For information about block properties, such as those used for vanilla blocks like wood types, fences, walls, and many more, see the section on [blockstates].
 
 [sounds]: effects/sounds.md
 [blockstates]: blockstates/Introduction.md

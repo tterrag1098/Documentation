@@ -49,7 +49,7 @@ One of the most common things to do on block activation is opening a GUI. Many b
 Another common use for activation is, well, activation. This can be something like "turning on" a block, or triggering it to perform some action. For instance, a block could light up when activated. A vanilla example would be buttons or levers.
 
 !!! important
-    `onBlockActivated` is called on both the client and the server, so be sure to keep the [sidedness](sides) of your code in mind. Many things, like opening GUIs and modifying the world, should only be done on the server-side.
+    `onBlockActivated` is called on both the client and the server, so be sure to keep the [sidedness] of your code in mind. Many things, like opening GUIs and modifying the world, should only be done on the server-side.
 
 Player Break/Destroy
 --------------------
@@ -61,3 +61,6 @@ Player Highlighting
 
 Entity Collision
 ----------------
+
+
+[sidedness]: concepts/sides.md
