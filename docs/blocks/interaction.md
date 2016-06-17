@@ -13,7 +13,9 @@ Since left clicking, or "punching", a block does not generally result in any uni
 
 This is the method that controls right click behavior, and it is a rather complicated one. Here is its full signature:
 
-`public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, @Nullable ItemStack heldItem, EnumFacing side, float hitX, float hitY, float hitZ)`
+```java
+public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, @Nullable ItemStack heldItem, EnumFacing side, float hitX, float hitY, float hitZ)
+```
 
 There's quite a bit to discuss here.
 
