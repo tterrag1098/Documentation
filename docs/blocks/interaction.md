@@ -51,12 +51,12 @@ Another common use for activation is, well, activation. This can be something li
 !!! important
     `onBlockActivated` is called on both the client and the server, so be sure to keep the [sidedness](sides) of your code in mind. Many things, like opening GUIs and modifying the world, should only be done on the server-side.
 
-Player Highlighting
--------------------
-
-
 Player Break/Destroy
 --------------------
+
+
+Player Highlighting
+-------------------
 
 
 Entity Collision
