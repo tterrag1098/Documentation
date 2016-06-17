@@ -63,4 +63,4 @@ Entity Collision
 ----------------
 
 
-[sidedness]: concepts/sides.md
+[sidedness]: /concepts/sides.md
